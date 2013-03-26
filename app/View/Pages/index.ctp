@@ -20,6 +20,7 @@
 <div class="row">
 	<div class="span4">
 		<h3>Web Designing</h3>
+		<p>Various creative web designs are provided</p>
 	</div>
 	<div class="span4">
 		<h3>E-Commerce Solutions</h3>
