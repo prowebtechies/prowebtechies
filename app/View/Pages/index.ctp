@@ -8,7 +8,7 @@
 		<p></p>
 	</div>
 	<div class="span4">
-		<h3>SEO services of prowebtechies</h3>
+		<h3>SEO services</h3>
 	</div>
 	<div class="span4">
 		<h3>Web App Development</h3>
