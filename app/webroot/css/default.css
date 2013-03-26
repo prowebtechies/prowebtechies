@@ -10,3 +10,8 @@
 	text-align: center;
 	padding-top: 40px;
 }
+.hero-unit-text-align {
+	text-align: justify;
+	margin-right: 50px;
+	margin-left: 10px;
+}
