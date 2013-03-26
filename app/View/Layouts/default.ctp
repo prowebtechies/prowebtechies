@@ -39,6 +39,7 @@
 		echo $this->Html->css('default');
 		echo $this->Html->script('jquery-1.8.1.min');
 		echo $this->Html->script('bootstrap.min');
+		echo $this->Html->script('default');
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
