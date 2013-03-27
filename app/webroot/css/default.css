@@ -1,7 +1,12 @@
-
 .container-fix {
 	margin-top:40px;
 }
 .nav-fix {
 	margin-top: 20px !important;
+}
+#success-message,
+#failure-message {
+	display: none;
+	text-align: center;
+	padding-top: 40px;
 }

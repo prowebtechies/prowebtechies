@@ -38,14 +38,15 @@ class ContactsController extends AppController {
  * @return void
  */
 	public function add() {
-		if ($this->request->is('post')) {
+		if (!empty($this->request->data)) {
 			$this->Contact->create();
 			if ($this->Contact->save($this->request->data)) {
-				$this->Session->setFlash(__('The contact has been saved'));
-				$this->redirect('/');
+				echo json_encode(array('s' => true)); die;
 			} else {
-				$this->Session->setFlash(__('The contact could not be saved. Please, try again.'));
+				echo json_encode(array('s' => false)); die;
 			}
+		} else {
+			echo json_encode(array('s' => false)); die;
 		}
 	}
 
