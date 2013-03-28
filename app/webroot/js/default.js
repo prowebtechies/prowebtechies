@@ -16,5 +16,30 @@ $(function(){
 		}, 'json')
 
 	})
+
+	// $('#ReadMore1').on('click',function(e) {
+	// 	e.preventDefault();
+	// 	$('#project1').show();
+	// 	$('#ReadMore1').hide();
+	// })
+	// $('#ReadMore2').on('click',function(e) {
+	// 	e.preventDefault();
+	// 	$('#project2').show();
+	// 	$('#ReadMore2').hide();
+	// })
+	// $('#ReadMore3').on('click',function(e) {
+	// 	e.preventDefault();
+	// 	$('#project3').show();
+	// 	$('#ReadMore3').hide();
+	// })
+
+
+	$('.home-row .span3 a').on('click', function(e){
+		e.preventDefault();
+		$(this).closest('.span3').find('p:eq(1)').show();
+		$(this).hide();
+	})
+
 });
+
 
