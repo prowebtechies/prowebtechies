@@ -37,3 +37,7 @@
 		<?php echo $this->Html->link('....Read More', '#') ?>
 	</div>
 </div>
+<br />
+<br />
+<div class="clear">
+</div>
