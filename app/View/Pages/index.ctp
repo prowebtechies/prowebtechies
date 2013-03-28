@@ -10,11 +10,6 @@
 	</div>
 </div>
 <div class="row home-row">
-	<!-- <div class="span3">
-		<h3>Website Development</h3>
-		<p>ProWeb Techies has a cohesive team of web developers to cater all kinds of web development needs. However, during the past years, web has seen a rapid growth in MVC based framework, custom CMS and E-commerce shopping carts. We have extensive ideas on most open source LAMP (php/mysql) scripts that are popular and provide robust platforms to develop your website solution. This knowledge greatly helps us in decreasing your overall cost & turn around time (TAT)for developing the perfect web development for your business.</p>
-	</div> -->
-	
 	<div class="span3">
 		<h3>Web App Development</h3>
 		<p>Web applications in most basic terms are computer programs allowing website visitors to submit and retrieve data to/from a database over the Internet using their preferred web browser. The data is then presented to the user within their browser as information is generated dynamically (in a specific format, e.g. in HTML using CSS) by the web application through a web server.</p>
@@ -28,11 +23,6 @@
 		<h3>SEO services</h3>
 		<p>We specialize in affordable SEO friendly website designs and search engine optimization services. Our core competency is to provide effective and customized cutting edge SEO solutions. We understand a successful online campaign comprises of high website traffic, high conversions, and high stimulus to the web consumer. How do we achieve high website traffic? Through natural search using an array of effective and ethical search engine optimization facts, like link exchange, keyword optimization, tags to newsletter blogs, RSS Feed, SMO and Blogs etc.</p>
 	</div>
-	<!-- <div class="span3">
-		<h3>E-Commerce Solutions</h3>
-		<p>There are a variety of shopping carts ranging in price depending upon the features, e.g. degree of automation, level of security, database development, etc. We can direct you to some very affordable shopping cart programs that offer category wise product management and can be integrated with your website. Some solutions allow you to add, delete, and edit your own products, pictures, descriptions, and prices. 
-		</p>
-	</div> -->
 	<div class="span3">
 		<h3>Content Management System</h3>
 		<p>Content Management System or CMS, a computer program that allows publishing, editing and modifying content as well as maintenance from a central interface popularly know as Admin Panel. In web, a CMS is a stand-alone application to create, manage, store and deploy content on Web Pages. Wordpress is one such system for blogs. At ProWeb Techies, we build systems with elaborate and complex backend design while paying due attention to minute details which enhances the user-friendliness of system.</p>

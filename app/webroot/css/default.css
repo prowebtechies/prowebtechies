@@ -31,11 +31,10 @@ body {
 	text-align: justify;
 }
 .hero-about {
-	padding-top: 5px;
-	padding-bottom: 5px;
+
 }
-.hero-about img {
-	margin-top: 30px;
+.about-text {
+	width: 70%
 }
 .home-row {
 	margin-left: 0px;

@@ -14,6 +14,19 @@ $(function(){
 				$('#failure-message').show();
 			}
 		}, 'json');
-	})
+	});
+	
+	var url = window.location.pathname;  
+    var activePage = url.substring(url.lastIndexOf('/')+1);
+	 $('.navbar .nav li a').each(function(){  
+	    var currentPage = this.href.substring(this.href.lastIndexOf('/')+1);
+	    if (activePage == currentPage) {
+	    	$('.navbar .nav li a').closest('.nav').find('li:eq(0)').removeClass('active');
+		    $(this).parent().addClass('active'); 
+		 } else if (activePage == '') {
+	    	$('.navbar .nav li a').closest('.nav').find('li').removeClass('active');
+	    	$('.navbar .nav li a').closest('.nav').find('li:eq(0)').addClass('active');
+		 }
+	});
 });
 
