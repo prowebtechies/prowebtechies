@@ -1,8 +1,24 @@
+body {
+	background-color: #F3F3F3;
+}
 .container-fix {
 	margin-top:40px;
 }
 .nav-fix {
 	margin-top: 20px !important;
+}
+.hero-unit {
+	background-color: rgb(196, 196, 196);
+}
+.hero-unit-text-align {
+	text-align: center;
+	width: 60%;
+}
+.hero-unit-text-align h1 {
+	text-align: left;
+}
+.hero-image {
+	width: 35%;
 }
 #success-message,
 #failure-message {
@@ -12,5 +28,21 @@
 }
 
 .hero-unit p {
+	text-align: justify;
+}
+.home-row {
+	margin-left: 0px;
+}
+.home-row h3 {
+	text-align: center;
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 1.25;
+	color: #333;
+}
+.home-row .span3:first-child {
+	margin-left: 0px;
+}
+.home-row p {
 	text-align: justify;
 }
