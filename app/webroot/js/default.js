@@ -13,8 +13,7 @@ $(function(){
 			if (!data.s) {
 				$('#failure-message').show();
 			}
-		}, 'json')
-
+		}, 'json');
 	})
 });
 
