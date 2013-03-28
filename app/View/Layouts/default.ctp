@@ -75,7 +75,10 @@
 			<?php echo $this->fetch('content'); ?>
 		</div>
 	</div>
-	<div id="footer">
-	</div>
+	<footer>
+		<div class="social-networks">
+			<p><?php echo $this->Html->link($this->Html->image('fb.png'), 'http://www.facebook.com/ProWebTechies.entrepreneurs', array('target' => '_blank', 'escape' => false, 'class' => 'social-networks-fb')); ?> <?php echo $this->Html->link($this->Html->image('tw.png'), 'http://www.twitter.com/ProWebTechies', array('target' => '_blank', 'escape' => false)); ?></p>
+		</div>
+	</footer>
 </body>
 </html>
