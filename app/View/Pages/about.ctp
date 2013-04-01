@@ -1,6 +1,6 @@
 <h1>About Us</h1>
 <div class="hero-unit hero-about">
-	<p class="about-text pull-right">Niranjan Kumar, BITS Pilani Alumni, an avid biker and a programming geek. 
+	<p class="about-text pull-right">Niranjan Kumar, BITS Pilani Alumnus, an avid biker and a programming geek. 
 		He is currently working as a software engineer in Bangalore. 
 		He works in platform specific database developement team and handles projects on  
 windows security features of database.
