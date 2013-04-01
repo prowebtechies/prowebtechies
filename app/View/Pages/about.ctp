@@ -1,8 +1,9 @@
 <h1>About Us</h1>
 <div class="hero-unit hero-about">
-	<p class="about-text pull-right">Niranjan Kumar, BITS Pilani Alumni, an avid biker and a programming geek. He is a software engineer in Oracle Server Technolgies, Bangalore. 
+	<p class="about-text pull-right">Niranjan Kumar, BITS Pilani Alumni, an avid biker and a programming geek. 
+		He is currently working as a software engineer in Bangalore. 
 		He works in platform specific database developement team and handles projects on  
-windows security of oracle database.
+windows security features of database.
 He previously worked for eBay where he developed a couple of  web applications for
 handling the entire vendor management system of eBay and migration of the database.
 He likes to explore upcoming technologies in the field of Web Development, Artificial Intelligence

@@ -1,7 +1,9 @@
+<H1>Contact Us</H1>
+<hr>
 <div class="row" >
-<div class="span4">
+<div class="span4 form-span">
+	<p><strong>Drop Us a Message</strong></p>
 	<div id="contact-div">
-		<H1>Contact Us</H1>
 
 		<?php 
 		echo $this->Form->create('Contact', array('url' => array('controller' => 'contacts', 'action' => 'add'), 'id' => 'contactForm'));
@@ -19,13 +21,22 @@
 	</div>
 </div>
 <div class="span4">
+	<p><strong>Would you like to meet us over a cup of coffee!!!</strong></p>
 	<div class="well well-contact">
+		<p><strong>Address:-</strong></p>
 		<p>Sony World Signal </p>
-		<p> Ejipura </p>
-		<p> Bangalore </p>
+		<p> Ejipura, Koramangala </p>
+		<p> Bangalore - 560047 </p>
+	</div>
+	<div class="well well-contact">
+		<p><strong>Email:-</strong></p>
+		<p><?php echo $this->Html->link('prowebtechies@gmail.com', 'mailto:prowebtechies@gmail.com', array('target' => '_blank')); ?></p>
+		<p><strong>Phone:-</strong></p>
+		<p> +91-888-4757-407 </p>
 	</div>
 </div>
-<div class="span4">
+<div class="span4 map-span">
+	<p><strong>Find Us on Google Maps</strong></p>
 	<iframe width="370" height="350" frameborder="0" scrolling="no" marginheight="0" 
 	marginwidth="0" src="http://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp
 	;geocode=&amp;q=Sony+World,+100+Feet+Road,+Koramangala+4+Block,+Ejipura,+Bangalore,
