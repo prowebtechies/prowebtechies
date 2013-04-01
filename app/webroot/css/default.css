@@ -73,3 +73,20 @@ body {
 .well-contact p {
 	border-bottom: dotted;
 }
+.social-networks {
+	background-color: #1b1b1b;
+	background-image: -moz-linear-gradient(top,#222,#111);
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#222),to(#111));
+	background-image: -webkit-linear-gradient(top,#222,#111);
+	background-image: -o-linear-gradient(top,#222,#111);
+	background-image: linear-gradient(to bottom,#222,#111);
+	background-repeat: repeat-x;
+	margin-bottom: 20px;
+	height: 60px;
+	padding-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.social-networks-fb{
+	margin-left: 46%;
+}
