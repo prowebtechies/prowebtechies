@@ -102,11 +102,16 @@ body {
 }
 .faq-list {
 	list-style-type: none;
-	margin-left: 40%
+	margin-left: 30%;
+	width: 500px;
 }
 .faq-list li {
 	list-style-image:url('../img/plus.png');
+	line-height: 30px;
 }
 .faq-list li p {
 	display: none;
+}
+.faq-question {
+	color: #005580;
 }
