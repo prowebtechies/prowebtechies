@@ -62,6 +62,7 @@
 						    <li class="active"><?php echo $this->Html->link('Home', '/'); ?></a></li>
 						    <li><?php echo $this->Html->link('About', '/about'); ?></li>
 					    	<li><?php echo $this->Html->link('Contact Us', '/contact'); ?></li>
+					    	<li><?php echo $this->Html->link('FAQ', '/faq'); ?></li>
 				    	</ul>
 				    </div>
 			    </div>

@@ -29,6 +29,7 @@
 	Router::connect('/', array('controller' => 'pages', 'action' => 'index'));
 	Router::connect('/about', array('controller' => 'pages', 'action' => 'about'));
 	Router::connect('/contact', array('controller' => 'pages', 'action' => 'contact'));
+	Router::connect('/faq', array('controller' => 'pages', 'action' => 'faq'));
 /**
  * ...and connect the rest of 'Pages' controller's urls.
  */
