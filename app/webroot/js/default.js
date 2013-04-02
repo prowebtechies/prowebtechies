@@ -4,6 +4,7 @@ $(function(){
 		var $form = $(this);
 		var postUrl = $form.attr('action');
 		var postData = $form.serialize();
+        $form.find('input[type="submit"]').prop('disabled' , true);
 		$.post(postUrl, postData, function(data) {
 			if (data.s) {
 				$('#contact-div').hide();
@@ -13,6 +14,7 @@ $(function(){
 			if (!data.s) {
 				$('#failure-message').show();
 			}
+        $form.find('input[type="submit"]').removeAttr('disabled');
 		}, 'json');
 	});
 	

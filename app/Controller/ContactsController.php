@@ -1,5 +1,6 @@
 <?php
 App::uses('AppController', 'Controller');
+App::uses('CakeEmail', 'Network/Email');
 /**
  * Contacts Controller
  *
@@ -41,6 +42,11 @@ class ContactsController extends AppController {
 		if (!empty($this->request->data)) {
 			$this->Contact->create();
 			if ($this->Contact->save($this->request->data)) {
+				$userEmail = $this->request->data['Contact']['email'];
+				$adminEmail = Configure::read('ProWebTechiesEmail.default');
+				$message = $this->request->data['Contact']['message'];
+				$this->Contact->sendContactEmailToUser($this->request->data);
+				$this->Contact->sendContactEmailToAdmin($this->request->data);
 				echo json_encode(array('s' => true)); die;
 			} else {
 				echo json_encode(array('s' => false)); die;
