@@ -23,6 +23,7 @@
 <head>
 	<?php echo $this->Html->charset(); ?>
 	<title>
+		<?php echo 'ProWeb Techies '; ?>| <?php echo $title_for_layout; ?>
 	</title>
 	<?php
 		echo $this->Html->meta('icon');

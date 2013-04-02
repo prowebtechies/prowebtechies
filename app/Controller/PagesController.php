@@ -73,18 +73,22 @@ class PagesController extends AppController {
 	}
 
 	public function index() {
-
+		$title_for_layout = 'Home';
+		$this->set(compact('title_for_layout'));
 	}
 
 	public function about() {
-		
+		$title_for_layout = 'About Us';
+		$this->set(compact('title_for_layout'));
 	}
 
 	public function contact() {
-		
+		$title_for_layout = 'Contact Us';
+		$this->set(compact('title_for_layout'));
 	}
 
 	public function faq() {
-
+		$title_for_layout = 'FAQ';
+		$this->set(compact('title_for_layout'));
 	}
 }
