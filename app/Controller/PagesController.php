@@ -83,4 +83,8 @@ class PagesController extends AppController {
 	public function contact() {
 		
 	}
+
+	public function faq() {
+
+	}
 }
