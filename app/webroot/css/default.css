@@ -105,3 +105,7 @@ body {
 .faq-question {
 	color: #005580;
 }
+
+footer .navbar-inner {
+	padding-top: 10px;
+}
