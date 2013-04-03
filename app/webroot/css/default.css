@@ -7,6 +7,9 @@ body {
 .nav-fix {
 	margin-top: 20px !important;
 }
+#push {
+	height: 60px;
+}
 .hero-unit {
 	background-color: rgb(196, 196, 196);
 }
@@ -74,20 +77,6 @@ body {
 .well-contact p {
 	border-bottom: dotted;
 }
-.social-networks {
-	background-color: #1b1b1b;
-	background-image: -moz-linear-gradient(top,#222,#111);
-	background-image: -webkit-gradient(linear,0 0,0 100%,from(#222),to(#111));
-	background-image: -webkit-linear-gradient(top,#222,#111);
-	background-image: -o-linear-gradient(top,#222,#111);
-	background-image: linear-gradient(to bottom,#222,#111);
-	background-repeat: repeat-x;
-	margin-bottom: 20px;
-	height: 60px;
-	padding-top: 5px;
-	margin-left: auto;
-	margin-right: auto;
-}
 .social-networks-fb{
 	margin-left: 46%;
 }
@@ -102,8 +91,8 @@ body {
 }
 .faq-list {
 	list-style-type: none;
-	margin-left: 30%;
-	width: 500px;
+	margin-left: 10%;
+	width: 50%;
 }
 .faq-list li {
 	list-style-image:url('../img/plus.png');
@@ -111,6 +100,7 @@ body {
 }
 .faq-list li p {
 	display: none;
+	text-align: justify;
 }
 .faq-question {
 	color: #005580;
