@@ -17,6 +17,6 @@ and Data Mining.</p>
 	This lanky lad is a pro coder by profession and a model by looks. He is a Linux Lover and a fan of Open Source Technology. 
 	A versatile Linux System Programmer, has developed a Custom Linux Distro from Scratch. 
 	He has worked on various Linux Based servers and has excellent administration skills. Started his career at ZScaler Inc., a cloud security company. 
-	An enterpreneur at heart moved to Bangalore to follow his dreams of starting his own venture. Witty by nature, he keeps the team at its toes to deliver their best.
+	An enterpreneur at heart moved to Bangalore to follow his dream of starting his own venture. Witty by nature, he keeps the team at its toes to deliver their best.
 </p>
 </div>
