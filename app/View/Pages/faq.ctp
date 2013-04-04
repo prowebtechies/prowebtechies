@@ -96,8 +96,7 @@ is listed on targeted Key phrases which would help attract and drive relevant tr
 		</li>
 		<li><span class="faq-question"><strong>How can SEO Campaign benefit me/my website?</span></strong>
 			<p>SEO Search Engine Optimization are techniques aimed at attracting focused and relevant traffic to a Website by
-getting it listed amongst the top few listings on the search engines on targeted keywords/Key phrases. We have
-spent over 8 years analyzing the search engine mechanisms and has identified over 250 parameters which could
+getting it listed amongst the top few listings on the search engines on targeted keywords/Key phrases. We have analyzed the search engine mechanisms and identified parameters which could
 induce a positive effect on the search engine algorithms, which further help the website to surge higher up the ladder
 amongst the millions of other search results being showed up by a Google/Yahoo/MSN etc
 
