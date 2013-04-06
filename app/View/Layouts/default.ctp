@@ -26,7 +26,7 @@
 		<?php echo 'ProWeb Techies '; ?>| <?php echo $title_for_layout; ?>
 	</title>
 	<?php
-		echo $this->element('analytics.ctp');
+		echo $this->element('analytics');
 		echo $this->Html->meta('icon');
 		echo $this->Html->css('bootstrap.min');
 	?>
