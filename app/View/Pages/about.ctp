@@ -1,5 +1,5 @@
 <h1>About Us</h1>
-<div class="hero-unit hero-about">
+<!-- <div class="hero-unit hero-about">
 	<p class="about-text pull-right">Niranjan Kumar, BITS Pilani Alumnus, an avid biker and a programming geek. 
 		He is currently working as a software engineer in Bangalore. 
 		He works in platform specific database developement team and handles projects on  
@@ -9,7 +9,7 @@ handling the entire vendor management system of eBay and migration of the databa
 He likes to explore upcoming technologies in the field of Web Development, Artificial Intelligence
 and Data Mining.</p>
 	<?php echo $this->Html->image('nir.png'); ?>
-</div>
+</div> -->
 
 <div class="hero-unit hero-about">
 <?php echo $this->Html->image('chandan.png', array('class' => 'pull-right')); ?>
